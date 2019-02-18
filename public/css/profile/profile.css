@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  -webkit-transition: 0.3s cubic-bezier(0.75, 0, 0.2, 1), color 0.3s ease;
+  transition: 0.3s cubic-bezier(0.75, 0, 0.2, 1), color 0.3s ease;
+}
+
+.rela-block {
+  display: block;
+  position: relative;
+  margin: auto;
+  top: ;
+  left: ;
+  right: ;
+  bottom: ;
+}
+.floated {
+  display: inline-block;
+  position: relative;
+  margin: false;
+  top: ;
+  left: ;
+  right: ;
+  bottom: ;
+  float: left;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  z-index: 1;
+  width: 92%;
+  max-width: 1126px;
+  background-color: #f4f4f4;
+  margin: 70px auto;
+  padding: 70px 0;
+}
+.profile-card {
+  width: calc(100% - 40px);
+  padding-top: 100px;
+  margin: 70px auto 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px -2px rgba(0,0,0,0.26);
+}
+/*profile picture*/
+.profile-pic {
+  display: false;
+  position: absolute;
+  margin: false;
+  top: -90px;
+  left: 50%;
+  right: false;
+  bottom: false;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 180px;
+  width: 180px;
+  border: 10px solid #fff;
+  border-radius: 100%;
+  background: url("/images/meliodas.png") center no-repeat;
+  background-size: cover;
+}
+.profile-name-container {
+  margin: 0 auto 10px;
+  padding: 10px;
+  text-align: center;
+}
+.user-name {
+  font-family: "Montserrat";
+  font-size: 24px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 12px;
+}
+.user-desc {
+  letter-spacing: 1px;
+  color: #999;
+}
+.profile-card-stats {
+  height: 75px;
+  padding: 10px 0px;
+  text-align: center;
+  overflow: hidden;
+}
+.profile-stat {
+  height: 100%;
+  width: 33.3333%;
+}
+.profile-stat:after {
+  color: #999;
+}
+.works::after {
+  content: "Approved";
+}
+.followers::after {
+  content: "For Checking";
+}
+.following::after {
+  content: "Received Items";
+}
+.image {
+  width: 240px;
+  height: 200px;
+  cursor: pointer;
+  margin: 0 20px 40px;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 10px solid #fff;
+  box-shadow: 0 2px 6px -2px rgba(0,0,0,0.26);
+  background-color: rgba(0,0,0,0.4);
+  background-size: cover !important;
+  -webkit-transition: 0.2s cubic-bezier(0.5, 0, 0.2, 1);
+  transition: 0.2s cubic-bezier(0.5, 0, 0.2, 1);
+}
+
+
+/*CoomentBox*/
+.comment-box {
+    margin-top: 30px !important;
+}
+
+.comment-box img {
+    width: 50px;
+    height: 50px;
+}
+.comment-box .media-left {
+    padding-right: 10px;
+    width: 65px;
+}
+.comment-box .media-body p {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.comment-box .media-body .media p {
+    margin-bottom: 0;
+}
+.comment-box .media-heading {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 7px 10px;
+    position: relative;
+    margin-bottom: -1px;
+}
+.comment-box .media-heading:before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-width: 1px 0 0 1px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 10px;
+    left: -6px;
+}
+
+
+

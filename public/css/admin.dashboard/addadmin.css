@@ -1,0 +1,31 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.modal-dialog{
+    overflow-y: initial 
+}
+.modal-body{
+    height: 280px;
+    overflow-y: auto;
+    display: block;
+    margin-left: auto;
+  	margin-right: auto;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: powderblue;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+.avatar:hover { 
+    background-color: yellow;
+}
+
